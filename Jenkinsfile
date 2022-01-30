@@ -1,5 +1,11 @@
-stage ("Run sh file"){
- echo "everything work fine"
+pipeline {
+  agent any
+  triggers {
+    githubPush()
+  }
+  stages {
+     stage ("Run webhook git") {
+       echo "Everything works fine !"
+    }
+  }
 }
-
-
