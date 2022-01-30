@@ -1,3 +1,5 @@
-stage "Run sh file"
-sh("./create.sh")
+stage ("Run sh file"){
+ echo "everything work fine"
+}
+
 
