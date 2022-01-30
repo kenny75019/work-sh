@@ -5,6 +5,7 @@ pipeline {
   }
   stages {
      stage ("Run webhook git") {
+       
        echo "Everything works fine !"
     }
   }
